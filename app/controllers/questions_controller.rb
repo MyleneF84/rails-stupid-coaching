@@ -1,7 +1,6 @@
 class QuestionsController < ApplicationController
 
-  def ask
-  end
+  def ask; end
 
   def answer
     # TODO: return coach answer to your_message
