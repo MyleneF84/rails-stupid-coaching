@@ -4,7 +4,7 @@ class QuestionsController < ApplicationController
 
   def answer
     # TODO: return coach answer to your_message
-    your_message = params[:answer]
+    your_message = params[:question]
     if your_message.downcase == "i am going to work right now!"
       @coach_answer = "OK"
     elsif your_message.end_with?("?")
